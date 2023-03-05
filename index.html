@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="icon" type="image/jpg" href="img/icono.png">
+	<title>CV MARIANO EMANUEL CORDOBA</title>
+</head>
+<body>
+<!-- Inicio -->
+<section class="inicio" id="inicio">
+	<div class="contenido-seccion">
+		<header>
+			<div class="nav-bar" onclick="mostrarOcultarMenu()">
+              <i class="fa-solid fa-bars"></i>
+			</div>
+			<nav id="nav" class="nav">
+				<a href="#inicio">Inicio</a>
+				<a href="#sobremi">Sobre mí</a>
+				<a href="#habilidades">Habilidades</a>
+				<a href="#resumen">Resumen</a>
+				<a href="#contacto">Contacto</a>
+			</nav>
+			<div class="logo">
+				M<span class="color">C</span>
+			</div>
+		</header>
+		<div class="info">
+			<h1>MARIANO EMANUEL CORDOBA</h1>
+			<h2>CODIFICADOR, DISEÑADOR</h2>
+			<div class="redes">
+				<a href="https://twitter.com/Mariano54119809" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.facebook.com/marianoemanuel.cordoba.9/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/cordobamariano/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/mariano-emanuel-cordoba-a14830226/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+			</div>
+		</div>
+		<div class="foto">
+			<img src="img/foto.jpg">
+		</div>
+	</div>
+</section>
+
+<!-- Sobre mi -->
+<section class="sobremi" id="sobremi">
+	<div class="contenido-seccion">
+		<h2 class="titulo-seccion">Sobre Mi</h2>
+		<h3>Detalles personales</h3>
+		<p class="especial">Me dedico a producir ideas creativas y originales dentro del desarrollo web</p>
+		<p>Me encanta la computación y el desarrollo de paginas web, espero un día poder trabajar y vivir de lo que me gusta</p>
+
+		<div class="fila">
+			<div class="col">
+				<i class="fa-solid fa-user"></i>
+				<span class="titulo-detalle">Perfil</span>
+				<p>Soy un Estudiante de 24 años, Actualmente estoy cursando la carrera de Ingeniería Electronica y realizando cursos de programacion web</p>
+			</div>
+			<div class="col">
+				<i class="fa-sharp fa-solid fa-location-dot"></i>
+				<span class="titulo-detalle">Ubicación</span>
+				<p>Vivo en un pequeño pueblo llamado La Trinidad, ubicado al sur de la Provincia de Tucumán</p>
+			</div>
+			<div class="col">
+			<i class="fa-solid fa-flag"></i>
+				<span class="titulo-detalle">Intereses</span>
+				<p>Seguir aprendiendo y formandome día a día</p>
+				<p>Secretariado Administrativo Contable</p>
+				<p>Fan del Deporte y los Videojuegos</p>
+		    </div>
+	</div>
+	</div>
+<h3>Modo Oscuro/Claro </h3>
+<p class="txt">Presiona el boton de abajo para cambiar de modo Claro a Oscuro</p>
+<input  id="check" type="checkbox" onclick="activarModoOscuro()">
+</section>
+
+<!-- Habilidades -->
+<section class="habilidades" id="habilidades">
+	<div class="contenido-seccion">
+		<h2 class="titulo-seccion">Mis habilidades</h2>
+		<h3>Me especializo en</h3>
+           <div class="fila">
+			<div class="col">
+				<span>HTML/CSS</span>
+				<div class="cont-barra">
+					<div class="barra html" id="html">
+					<span>90%</span>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<span>JAVASCRIPT</span>
+				<div class="cont-barra">
+					<div class="barra javascript" id="javascript">
+					<span>65%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col">
+				<span>WORDPRESS</span>
+				<div class="cont-barra">
+					<div class="barra wordpress" id="wordpress">
+					<span>70%</span>
+				</div>
+				</div>
+			</div>
+			<div class="col">
+				<span>PHOTOSHOP</span>
+				<div class="cont-barra">
+					<div class="barra photoshop" id="photoshop">
+					<span>85%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fila">
+			<div class="col">
+				<span>PHP</span>
+				<div class="cont-barra">
+					<div class="barra php" id="php">
+					<span>90%</span>
+				</div>
+				</div>
+			</div>
+			<div class="col">
+				<span>ILUSTRATOR</span>
+				<div class="cont-barra">
+					<div class="barra ilustrator" id="ilustrator">
+					<span>50%</span>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Resumen -->
+<section class="resumen" id="resumen">
+	<div class="contenido-seccion">
+	<h2 class="titulo-seccion">Resumen</h2>
+	<h3>Preparación</h3>
+	<div class="info">
+		<div class="col">
+			<span class="titulo">Educacion</span>
+			<table>
+				<tr>
+					<td class="datos">
+						<h3>2010 - 2016</h3>
+					</td>
+					<td rowspan="2" class="descripcion">
+						Titulo Secundario obtenido en la Escuela Técnica N°1 de Concepción-Tucumán.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4>Tecnico en Maquinas e Instalaciones Electromecanicas</h4>
+						<p>Escuela Tecnica N°1</p>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td class="datos">
+						<h3>2017 - Actualidad</h3>
+					</td>
+					<td rowspan="2" class="descripcion">
+						Actualmente soy estudiante en Ingiería Electronica en Universidad Tecnologica Nacional - Facultad Regional Tucumán, cursando el ultimo año de la carrera.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4>Ing. Electronica</h4>
+						<p>Universidad Tecnologica Nacional</p>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td class="datos">
+						<h3>2022</h3>
+					</td>
+					<td rowspan="2" class="descripcion">
+						Esta diplomatura contó con 3 etapas: La primera donde nos introducía en el mundo de la programación web y creamos nuestra primer página web, En la segunda y tercera etapa vimos bases datos con PHP y MySQL nivel inicial y nivel avanzado.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4>Diplomatura en Programación Web FullStack</h4>
+						<p>Universidad Tecnologica Nacional - Elearning Total</p>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td class="datos">
+						<h3>2023</h3>
+					</td>
+					<td rowspan="2" class="descripcion">
+						Actualmente me encuentro cursando en Ticmas los primeros pasos en el desarrollo FrontEnd en el cual el proyecto final es este Curriculum.
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h4>Argentina Programa</h4>
+						<p>Ticmas Cursos</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	</div>
+</section>
+
+<!-- Contacto -->
+<section class="contacto" id="contacto">
+	<div class="contenido-seccion">
+		<h2 class="titulo-seccion">Contacto</h2>
+		<h3>Podrás contactarme en cualquier momento</h3>
+        <div class="formulario">
+        		<form>
+							<input type="text" name="nombre" placeholder="Nombre" class="form-control margen_inferior" required="" maxlength="30">
+							<input type="text" name="edad" placeholder="Edad" class="form-control margen_inferior" min="14" max="55" required="">
+							<input type="email" name="correo" placeholder="Correo Electronico" class="form-control margen_inferior" required="">
+							<textarea placeholder="consulta" class="form-control margen_inferior" rows="5" required=""></textarea>
+							<input type="submit" class="btn-fullfit">
+						</form>
+        </div>
+		<div class="fila">
+			<div class="col">
+				<h2>
+					<i class="fa-solid fa-phone"></i> Teléfono
+				</h2>
+				<span class="info-contacto">3865-646884</span>
+			</div>
+			<div class="col">
+				<h2>
+					<i class="fa-solid fa-envelope"></i> Correo
+				</h2>
+				<span class="info-contacto">mariancordoba19@gmail.com</span>
+			</div>
+	</div>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
